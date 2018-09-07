@@ -2,6 +2,7 @@ flows:
   0c827f15-4a5f-4e11-91db-807bca34e91e: {ver: 1, file: publish_tailfile_kafka.snapshot}
   6aaa3513-a182-47bc-a0a2-02b0711b265b: {ver: 1, file: publish_ftp_kafka.snapshot}
   9f0c3ef1-91e0-4cd6-b12c-9f46c175b961: {ver: 2, file: publish_http_kafka.snapshot}
+  cc11bfa5-8ffe-4dbb-aac6-ab85a9e3590c: {ver: 1, file: publish_ssh-v2_kafka.snapshot}
   8d5c8bc9-d779-4b75-a8ae-c1cb981628e1: {ver: 2, file: publish_ssh_kafka.snapshot}
   1f371860-b563-4b97-bc59-b482532be9b8: {ver: 1, file: publish_dhcp_kafka.snapshot}
   c7b3e7ae-71ca-4caa-becc-92bbc5b6f3db: {ver: 1, file: publish_minifi_kafka.snapshot}
