@@ -1,5 +1,5 @@
 flows:
-  0c827f15-4a5f-4e11-91db-807bca34e91e: {ver: 1, file: publish_tailfile_kafka.snapshot}
+  0c827f15-4a5f-4e11-91db-807bca34e91e: {ver: 2, file: publish_tailfile_kafka.snapshot}
   6aaa3513-a182-47bc-a0a2-02b0711b265b: {ver: 1, file: publish_ftp_kafka.snapshot}
   9f0c3ef1-91e0-4cd6-b12c-9f46c175b961: {ver: 2, file: publish_http_kafka.snapshot}
   cc11bfa5-8ffe-4dbb-aac6-ab85a9e3590c: {ver: 1, file: publish_ssh-v2_kafka.snapshot}
