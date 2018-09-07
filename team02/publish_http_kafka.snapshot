@@ -14,7 +14,7 @@
         "comments" : "",
         "groupId" : "b3c9970f-0165-1000-0000-000070f971b9",
         "id" : "96e0f9df-e948-373d-8f32-fe49c2ff44d6",
-        "name" : "ConvertRecord_ftp",
+        "name" : "ConvertRecord_http",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
@@ -82,7 +82,7 @@
         "comments" : "",
         "groupId" : "b3c9970f-0165-1000-0000-000070f971b9",
         "id" : "96e0f9df-e948-373d-8f32-fe49c2ff44d6",
-        "name" : "ConvertRecord_ftp",
+        "name" : "ConvertRecord_http",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -101,7 +101,7 @@
         "comments" : "",
         "groupId" : "b3c9970f-0165-1000-0000-000070f971b9",
         "id" : "96e0f9df-e948-373d-8f32-fe49c2ff44d6",
-        "name" : "ConvertRecord_ftp",
+        "name" : "ConvertRecord_http",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
@@ -115,7 +115,7 @@
         "comments" : "",
         "groupId" : "b3c9970f-0165-1000-0000-000070f971b9",
         "id" : "96e0f9df-e948-373d-8f32-fe49c2ff44d6",
-        "name" : "ConvertRecord_ftp",
+        "name" : "ConvertRecord_http",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -275,7 +275,7 @@
         "comments" : "",
         "groupId" : "b3c9970f-0165-1000-0000-000070f971b9",
         "id" : "a770ce46-bbfa-36cb-b0e7-d7c1369c66c7",
-        "name" : "PublishKafka_ftp_1_0",
+        "name" : "PublishKafka_http_1_0",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
@@ -412,6 +412,7 @@
       "properties" : {
         "Keep Source File" : "true",
         "Hadoop Configuration Resources" : "/etc/hadoop/conf/core-site.xml,/etc/hadoop/conf/hdfs-site.xml",
+        "File Filter Regex" : "http\\.small\\.log",
         "Minimum File Age" : "0 sec",
         "Filter Match Name Only" : "true",
         "Polling Interval" : "0 sec",
@@ -615,7 +616,7 @@
       "executionNode" : "PRIMARY",
       "groupIdentifier" : "eecf01e1-54ac-3203-8737-d40feff65dff",
       "identifier" : "a770ce46-bbfa-36cb-b0e7-d7c1369c66c7",
-      "name" : "PublishKafka_ftp_1_0",
+      "name" : "PublishKafka_http_1_0",
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : 1398.6391620304698,
@@ -977,7 +978,7 @@
       "executionNode" : "ALL",
       "groupIdentifier" : "eecf01e1-54ac-3203-8737-d40feff65dff",
       "identifier" : "96e0f9df-e948-373d-8f32-fe49c2ff44d6",
-      "name" : "ConvertRecord_ftp",
+      "name" : "ConvertRecord_http",
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -119.87937514288654,
