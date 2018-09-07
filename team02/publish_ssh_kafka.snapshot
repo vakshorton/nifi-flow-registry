@@ -8,6 +8,33 @@
     "connections" : [ {
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
+        "id" : "8eb84ca8-6a4c-3d3e-b7ac-bc857c4a4bad",
+        "name" : "PublishKafka_1_0",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
+      "identifier" : "1fd39ec1-ed6e-39f7-90f1-0a2b52d7e0c9",
+      "labelIndex" : 1,
+      "name" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
+        "id" : "65e446ed-d986-3e0a-bab8-b4b54494ce54",
+        "name" : "ReplaceText_timestamp",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
       "bends" : [ {
         "x" : 1186.8018492085682,
         "y" : 1015.0607734791304
@@ -18,13 +45,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "72330ef6-c298-3dad-9ad0-6552b377e237",
         "name" : "EvaluateJsonPath_timestamp",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "65687d36-2a92-3c79-986c-426fba5eb88f",
       "labelIndex" : 1,
       "name" : "",
@@ -32,36 +59,9 @@
       "selectedRelationships" : [ "failure" ],
       "source" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "72330ef6-c298-3dad-9ad0-6552b377e237",
         "name" : "EvaluateJsonPath_timestamp",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
-        "id" : "8eb84ca8-6a4c-3d3e-b7ac-bc857c4a4bad",
-        "name" : "PublishKafka_1_0",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
-      "identifier" : "1fd39ec1-ed6e-39f7-90f1-0a2b52d7e0c9",
-      "labelIndex" : 1,
-      "name" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "success" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
-        "id" : "65e446ed-d986-3e0a-bab8-b4b54494ce54",
-        "name" : "ReplaceText_timestamp",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -78,13 +78,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "65e446ed-d986-3e0a-bab8-b4b54494ce54",
         "name" : "ReplaceText_timestamp",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "da9e34ab-034b-3198-8d73-a7024a15dbc6",
       "labelIndex" : 1,
       "name" : "",
@@ -92,7 +92,7 @@
       "selectedRelationships" : [ "failure" ],
       "source" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "65e446ed-d986-3e0a-bab8-b4b54494ce54",
         "name" : "ReplaceText_timestamp",
         "type" : "PROCESSOR"
@@ -105,13 +105,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "27ae5e68-42b8-3516-b4f3-f46cc893663f",
         "name" : "EvaluateJsonPath_timestamp",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "dbbc8a7a-3beb-3cc9-b937-0e45c745e549",
       "labelIndex" : 1,
       "name" : "",
@@ -119,7 +119,7 @@
       "selectedRelationships" : [ "success" ],
       "source" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "605cdfb9-7abf-3354-91dd-edd8a0fa00ce",
         "name" : "ConvertRecord",
         "type" : "PROCESSOR"
@@ -132,40 +132,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
-        "id" : "99f94968-caaa-3945-aced-debaaaec9e3b",
-        "name" : "SplitText",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
-      "identifier" : "c0cc6493-5967-300d-9487-ea62d876edc0",
-      "labelIndex" : 1,
-      "name" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "success" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
-        "id" : "91b9091f-bfb1-3623-b4bf-99e89b023ed4",
-        "name" : "GetHDFS",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "65e446ed-d986-3e0a-bab8-b4b54494ce54",
         "name" : "ReplaceText_timestamp",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "d7c893b8-3995-3d95-9a81-bfb9f5f4e039",
       "labelIndex" : 1,
       "name" : "",
@@ -173,7 +146,7 @@
       "selectedRelationships" : [ "success" ],
       "source" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "c7435015-94de-3e11-87dd-de7a33fce8ef",
         "name" : "UpdateAttribute_format_timestamp",
         "type" : "PROCESSOR"
@@ -186,13 +159,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "b6fd9322-4840-3abe-a904-9dacc5192255",
         "name" : "UpdateAttribute_Schema_Topic",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "507f997c-3485-3963-9fcd-db7e9ee08e79",
       "labelIndex" : 1,
       "name" : "",
@@ -200,7 +173,7 @@
       "selectedRelationships" : [ "splits" ],
       "source" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "99f94968-caaa-3945-aced-debaaaec9e3b",
         "name" : "SplitText",
         "type" : "PROCESSOR"
@@ -219,13 +192,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "605cdfb9-7abf-3354-91dd-edd8a0fa00ce",
         "name" : "ConvertRecord",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "2eee0611-7f07-367e-b51f-821ab1837233",
       "labelIndex" : 1,
       "name" : "",
@@ -233,7 +206,7 @@
       "selectedRelationships" : [ "failure" ],
       "source" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "605cdfb9-7abf-3354-91dd-edd8a0fa00ce",
         "name" : "ConvertRecord",
         "type" : "PROCESSOR"
@@ -246,13 +219,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "605cdfb9-7abf-3354-91dd-edd8a0fa00ce",
         "name" : "ConvertRecord",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "1b0b4f54-07a1-3a5b-938f-f339cae98680",
       "labelIndex" : 1,
       "name" : "",
@@ -260,9 +233,63 @@
       "selectedRelationships" : [ "success" ],
       "source" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "b6fd9322-4840-3abe-a904-9dacc5192255",
         "name" : "UpdateAttribute_Schema_Topic",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
+        "id" : "99f94968-caaa-3945-aced-debaaaec9e3b",
+        "name" : "SplitText",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
+      "identifier" : "53a805a1-82a8-3faa-baad-93b1653c070d",
+      "labelIndex" : 1,
+      "name" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
+        "id" : "839e10fd-efe6-3d0c-b115-2dfcb68533de",
+        "name" : "TailFile",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
+        "id" : "c7435015-94de-3e11-87dd-de7a33fce8ef",
+        "name" : "UpdateAttribute_format_timestamp",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
+      "identifier" : "5e384f47-5687-3376-8b7f-73c88f8c6455",
+      "labelIndex" : 1,
+      "name" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "matched" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
+        "id" : "27ae5e68-42b8-3516-b4f3-f46cc893663f",
+        "name" : "EvaluateJsonPath_timestamp",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -279,13 +306,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "27ae5e68-42b8-3516-b4f3-f46cc893663f",
         "name" : "EvaluateJsonPath_timestamp",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "59e9481b-5f15-303e-bdad-c08ebe0d28c1",
       "labelIndex" : 1,
       "name" : "",
@@ -293,34 +320,7 @@
       "selectedRelationships" : [ "failure" ],
       "source" : {
         "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
-        "id" : "27ae5e68-42b8-3516-b4f3-f46cc893663f",
-        "name" : "EvaluateJsonPath_timestamp",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
-        "id" : "c7435015-94de-3e11-87dd-de7a33fce8ef",
-        "name" : "UpdateAttribute_format_timestamp",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
-      "identifier" : "5e384f47-5687-3376-8b7f-73c88f8c6455",
-      "labelIndex" : 1,
-      "name" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "matched" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "afe30b42-0165-1000-ffff-ffffb15130e8",
+        "groupId" : "9b1c38f7-331f-18a5-9556-958941be18a5",
         "id" : "27ae5e68-42b8-3516-b4f3-f46cc893663f",
         "name" : "EvaluateJsonPath_timestamp",
         "type" : "PROCESSOR"
@@ -329,14 +329,14 @@
     } ],
     "controllerServices" : [ ],
     "funnels" : [ ],
-    "identifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+    "identifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
     "inputPorts" : [ ],
     "labels" : [ ],
-    "name" : "publish_ssh_kafka",
+    "name" : "publish_tailfile_kafka",
     "outputPorts" : [ ],
     "position" : {
-      "x" : -188.00460757849476,
-      "y" : 99.90838496731362
+      "x" : 256.2200170552943,
+      "y" : 103.5660464053019
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -351,7 +351,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "605cdfb9-7abf-3354-91dd-edd8a0fa00ce",
       "name" : "ConvertRecord",
       "penaltyDuration" : "30 sec",
@@ -384,6 +384,97 @@
       "type" : "org.apache.nifi.processors.standard.ConvertRecord",
       "yieldDuration" : "1 sec"
     }, {
+      "autoTerminatedRelationships" : [ ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.7.0.3.2.0.0-520"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
+      "identifier" : "839e10fd-efe6-3d0c-b115-2dfcb68533de",
+      "name" : "TailFile",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 280.0913042891707,
+        "y" : 71.8558926760189
+      },
+      "properties" : {
+        "tailfile-recursive-lookup" : "false",
+        "File Location" : "Local",
+        "tailfile-maximum-age" : "24 hours",
+        "File to Tail" : "/var/log/nifi/nifi-app.log",
+        "Initial Start Position" : "Beginning of File",
+        "tailfile-lookup-frequency" : "10 minutes",
+        "tail-mode" : "Single file"
+      },
+      "propertyDescriptors" : {
+        "tail-base-directory" : {
+          "displayName" : "Base directory",
+          "identifiesControllerService" : false,
+          "name" : "tail-base-directory",
+          "sensitive" : false
+        },
+        "tailfile-recursive-lookup" : {
+          "displayName" : "Recursive lookup",
+          "identifiesControllerService" : false,
+          "name" : "tailfile-recursive-lookup",
+          "sensitive" : false
+        },
+        "File Location" : {
+          "displayName" : "State Location",
+          "identifiesControllerService" : false,
+          "name" : "File Location",
+          "sensitive" : false
+        },
+        "tailfile-maximum-age" : {
+          "displayName" : "Maximum age",
+          "identifiesControllerService" : false,
+          "name" : "tailfile-maximum-age",
+          "sensitive" : false
+        },
+        "Rolling Filename Pattern" : {
+          "displayName" : "Rolling Filename Pattern",
+          "identifiesControllerService" : false,
+          "name" : "Rolling Filename Pattern",
+          "sensitive" : false
+        },
+        "File to Tail" : {
+          "displayName" : "File(s) to Tail",
+          "identifiesControllerService" : false,
+          "name" : "File to Tail",
+          "sensitive" : false
+        },
+        "Initial Start Position" : {
+          "displayName" : "Initial Start Position",
+          "identifiesControllerService" : false,
+          "name" : "Initial Start Position",
+          "sensitive" : false
+        },
+        "tailfile-lookup-frequency" : {
+          "displayName" : "Lookup frequency",
+          "identifiesControllerService" : false,
+          "name" : "tailfile-lookup-frequency",
+          "sensitive" : false
+        },
+        "tail-mode" : {
+          "displayName" : "Tailing mode",
+          "identifiesControllerService" : false,
+          "name" : "tail-mode",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.TailFile",
+      "yieldDuration" : "1 sec"
+    }, {
       "autoTerminatedRelationships" : [ "original", "failure" ],
       "bulletinLevel" : "WARN",
       "bundle" : {
@@ -395,7 +486,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "PRIMARY",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "99f94968-caaa-3945-aced-debaaaec9e3b",
       "name" : "SplitText",
       "penaltyDuration" : "30 sec",
@@ -458,7 +549,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "c7435015-94de-3e11-87dd-de7a33fce8ef",
       "name" : "UpdateAttribute_format_timestamp",
       "penaltyDuration" : "30 sec",
@@ -514,73 +605,8 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "27ae5e68-42b8-3516-b4f3-f46cc893663f",
-      "name" : "EvaluateJsonPath_timestamp",
-      "penaltyDuration" : "30 sec",
-      "position" : {
-        "x" : 941.3357847554432,
-        "y" : 853.8845649830366
-      },
-      "properties" : {
-        "TimestampOrig" : "__time",
-        "Destination" : "flowfile-attribute",
-        "Return Type" : "auto-detect",
-        "Null Value Representation" : "empty string",
-        "Path Not Found Behavior" : "ignore"
-      },
-      "propertyDescriptors" : {
-        "TimestampOrig" : {
-          "displayName" : "TimestampOrig",
-          "identifiesControllerService" : false,
-          "name" : "TimestampOrig",
-          "sensitive" : false
-        },
-        "Destination" : {
-          "displayName" : "Destination",
-          "identifiesControllerService" : false,
-          "name" : "Destination",
-          "sensitive" : false
-        },
-        "Return Type" : {
-          "displayName" : "Return Type",
-          "identifiesControllerService" : false,
-          "name" : "Return Type",
-          "sensitive" : false
-        },
-        "Null Value Representation" : {
-          "displayName" : "Null Value Representation",
-          "identifiesControllerService" : false,
-          "name" : "Null Value Representation",
-          "sensitive" : false
-        },
-        "Path Not Found Behavior" : {
-          "displayName" : "Path Not Found Behavior",
-          "identifiesControllerService" : false,
-          "name" : "Path Not Found Behavior",
-          "sensitive" : false
-        }
-      },
-      "runDurationMillis" : 0,
-      "schedulingPeriod" : "0 sec",
-      "schedulingStrategy" : "TIMER_DRIVEN",
-      "style" : { },
-      "type" : "org.apache.nifi.processors.standard.EvaluateJsonPath",
-      "yieldDuration" : "1 sec"
-    }, {
-      "autoTerminatedRelationships" : [ "unmatched" ],
-      "bulletinLevel" : "WARN",
-      "bundle" : {
-        "artifact" : "nifi-standard-nar",
-        "group" : "org.apache.nifi",
-        "version" : "1.7.0.3.2.0.0-520"
-      },
-      "comments" : "",
-      "componentType" : "PROCESSOR",
-      "concurrentlySchedulableTaskCount" : 1,
-      "executionNode" : "ALL",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
-      "identifier" : "72330ef6-c298-3dad-9ad0-6552b377e237",
       "name" : "EvaluateJsonPath_timestamp",
       "penaltyDuration" : "30 sec",
       "position" : {
@@ -644,7 +670,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "b6fd9322-4840-3abe-a904-9dacc5192255",
       "name" : "UpdateAttribute_Schema_Topic",
       "penaltyDuration" : "30 sec",
@@ -703,153 +729,69 @@
       "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
       "yieldDuration" : "1 sec"
     }, {
-      "autoTerminatedRelationships" : [ ],
+      "autoTerminatedRelationships" : [ "unmatched" ],
       "bulletinLevel" : "WARN",
       "bundle" : {
-        "artifact" : "nifi-hadoop-nar",
+        "artifact" : "nifi-standard-nar",
         "group" : "org.apache.nifi",
         "version" : "1.7.0.3.2.0.0-520"
       },
       "comments" : "",
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
-      "executionNode" : "PRIMARY",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
-      "identifier" : "91b9091f-bfb1-3623-b4bf-99e89b023ed4",
-      "name" : "GetHDFS",
+      "executionNode" : "ALL",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
+      "identifier" : "72330ef6-c298-3dad-9ad0-6552b377e237",
+      "name" : "EvaluateJsonPath_timestamp",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 269.9182255467007,
-        "y" : 96.92464638959626
+        "x" : 941.3357847554432,
+        "y" : 853.8845649830366
       },
       "properties" : {
-        "Keep Source File" : "true",
-        "Hadoop Configuration Resources" : "/etc/hadoop/conf/core-site.xml,/etc/hadoop/conf/hdfs-site.xml",
-        "Minimum File Age" : "0 sec",
-        "Filter Match Name Only" : "true",
-        "Polling Interval" : "0 sec",
-        "Ignore Dotted Files" : "true",
-        "Compression codec" : "NONE",
-        "Recurse Subdirectories" : "false",
-        "Batch Size" : "100",
-        "Kerberos Relogin Period" : "4 hours",
-        "Directory" : "/tmp/datasets/ssh"
+        "TimestampOrig" : "__time",
+        "Destination" : "flowfile-attribute",
+        "Return Type" : "auto-detect",
+        "Null Value Representation" : "empty string",
+        "Path Not Found Behavior" : "ignore"
       },
       "propertyDescriptors" : {
-        "Keep Source File" : {
-          "displayName" : "Keep Source File",
+        "TimestampOrig" : {
+          "displayName" : "TimestampOrig",
           "identifiesControllerService" : false,
-          "name" : "Keep Source File",
+          "name" : "TimestampOrig",
           "sensitive" : false
         },
-        "Hadoop Configuration Resources" : {
-          "displayName" : "Hadoop Configuration Resources",
+        "Destination" : {
+          "displayName" : "Destination",
           "identifiesControllerService" : false,
-          "name" : "Hadoop Configuration Resources",
+          "name" : "Destination",
           "sensitive" : false
         },
-        "File Filter Regex" : {
-          "displayName" : "File Filter Regex",
+        "Return Type" : {
+          "displayName" : "Return Type",
           "identifiesControllerService" : false,
-          "name" : "File Filter Regex",
+          "name" : "Return Type",
           "sensitive" : false
         },
-        "Minimum File Age" : {
-          "displayName" : "Minimum File Age",
+        "Null Value Representation" : {
+          "displayName" : "Null Value Representation",
           "identifiesControllerService" : false,
-          "name" : "Minimum File Age",
+          "name" : "Null Value Representation",
           "sensitive" : false
         },
-        "Filter Match Name Only" : {
-          "displayName" : "Filter Match Name Only",
+        "Path Not Found Behavior" : {
+          "displayName" : "Path Not Found Behavior",
           "identifiesControllerService" : false,
-          "name" : "Filter Match Name Only",
-          "sensitive" : false
-        },
-        "Polling Interval" : {
-          "displayName" : "Polling Interval",
-          "identifiesControllerService" : false,
-          "name" : "Polling Interval",
-          "sensitive" : false
-        },
-        "Ignore Dotted Files" : {
-          "displayName" : "Ignore Dotted Files",
-          "identifiesControllerService" : false,
-          "name" : "Ignore Dotted Files",
-          "sensitive" : false
-        },
-        "Maximum File Age" : {
-          "displayName" : "Maximum File Age",
-          "identifiesControllerService" : false,
-          "name" : "Maximum File Age",
-          "sensitive" : false
-        },
-        "Additional Classpath Resources" : {
-          "displayName" : "Additional Classpath Resources",
-          "identifiesControllerService" : false,
-          "name" : "Additional Classpath Resources",
-          "sensitive" : false
-        },
-        "Compression codec" : {
-          "displayName" : "Compression codec",
-          "identifiesControllerService" : false,
-          "name" : "Compression codec",
-          "sensitive" : false
-        },
-        "IO Buffer Size" : {
-          "displayName" : "IO Buffer Size",
-          "identifiesControllerService" : false,
-          "name" : "IO Buffer Size",
-          "sensitive" : false
-        },
-        "Recurse Subdirectories" : {
-          "displayName" : "Recurse Subdirectories",
-          "identifiesControllerService" : false,
-          "name" : "Recurse Subdirectories",
-          "sensitive" : false
-        },
-        "kerberos-credentials-service" : {
-          "displayName" : "Kerberos Credentials Service",
-          "identifiesControllerService" : true,
-          "name" : "kerberos-credentials-service",
-          "sensitive" : false
-        },
-        "Kerberos Keytab" : {
-          "displayName" : "Kerberos Keytab",
-          "identifiesControllerService" : false,
-          "name" : "Kerberos Keytab",
-          "sensitive" : false
-        },
-        "Batch Size" : {
-          "displayName" : "Batch Size",
-          "identifiesControllerService" : false,
-          "name" : "Batch Size",
-          "sensitive" : false
-        },
-        "Kerberos Principal" : {
-          "displayName" : "Kerberos Principal",
-          "identifiesControllerService" : false,
-          "name" : "Kerberos Principal",
-          "sensitive" : false
-        },
-        "Kerberos Relogin Period" : {
-          "displayName" : "Kerberos Relogin Period",
-          "identifiesControllerService" : false,
-          "name" : "Kerberos Relogin Period",
-          "sensitive" : false
-        },
-        "Directory" : {
-          "displayName" : "Directory",
-          "identifiesControllerService" : false,
-          "name" : "Directory",
+          "name" : "Path Not Found Behavior",
           "sensitive" : false
         }
       },
       "runDurationMillis" : 0,
-      "schedulingPeriod" : "1hr",
+      "schedulingPeriod" : "0 sec",
       "schedulingStrategy" : "TIMER_DRIVEN",
       "style" : { },
-      "type" : "org.apache.nifi.processors.hadoop.GetHDFS",
+      "type" : "org.apache.nifi.processors.standard.EvaluateJsonPath",
       "yieldDuration" : "1 sec"
     }, {
       "autoTerminatedRelationships" : [ "success", "failure" ],
@@ -863,7 +805,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 4,
       "executionNode" : "PRIMARY",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "8eb84ca8-6a4c-3d3e-b7ac-bc857c4a4bad",
       "name" : "PublishKafka_1_0",
       "penaltyDuration" : "30 sec",
@@ -1025,7 +967,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "b02f3eba-42e2-385d-b0a4-d9ca717fba02",
+      "groupIdentifier" : "54f28a61-bfb0-3e25-9934-de36d461d693",
       "identifier" : "65e446ed-d986-3e0a-bab8-b4b54494ce54",
       "name" : "ReplaceText_timestamp",
       "penaltyDuration" : "30 sec",

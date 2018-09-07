@@ -1,7 +1,7 @@
 flows:
   6aaa3513-a182-47bc-a0a2-02b0711b265b: {ver: 1, file: publish_ftp_kafka.snapshot}
   9f0c3ef1-91e0-4cd6-b12c-9f46c175b961: {ver: 1, file: publish_http_kafka.snapshot}
-  8d5c8bc9-d779-4b75-a8ae-c1cb981628e1: {ver: 1, file: publish_ssh_kafka.snapshot}
+  8d5c8bc9-d779-4b75-a8ae-c1cb981628e1: {ver: 2, file: publish_ssh_kafka.snapshot}
   1f371860-b563-4b97-bc59-b482532be9b8: {ver: 1, file: publish_dhcp_kafka.snapshot}
   4d0e94d3-39fb-4a5e-be72-aef746dbb7e7: {ver: 1, file: publish_dns_kafka.snapshot}
   a3c04927-ca35-4c3b-8bed-55acd371667d: {ver: 1, file: infer_schema_tsv.snapshot}
