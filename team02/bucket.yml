@@ -1,4 +1,5 @@
 flows:
+  6aaa3513-a182-47bc-a0a2-02b0711b265b: {ver: 1, file: publish_ftp_kafka.snapshot}
   8d5c8bc9-d779-4b75-a8ae-c1cb981628e1: {ver: 1, file: publish_ssh_kafka.snapshot}
 layoutVer: 1
 bucketId: e47c470d-cdc6-43b1-9dd0-aa248fc314ef
