@@ -1,0 +1,358 @@
+{
+  "header" : {
+    "dataModelVersion" : "2"
+  },
+  "content" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ {
+        "x" : 1399.7150183617523,
+        "y" : 172.72719077184433
+      }, {
+        "x" : 1399.7150183617523,
+        "y" : 222.72719077184433
+      } ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "b3ca6cc6-0165-1000-ffff-ffffd1a8ed7a",
+        "id" : "4c040c9d-0029-3764-977b-1f03544add5d",
+        "name" : "InferAvroSchema",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "63272910-59e7-3eb6-bb55-e2868057b29f",
+      "identifier" : "5cf5f0a4-84f3-35c7-9fbd-cddf4fe80596",
+      "labelIndex" : 1,
+      "name" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "failure" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "b3ca6cc6-0165-1000-ffff-ffffd1a8ed7a",
+        "id" : "4c040c9d-0029-3764-977b-1f03544add5d",
+        "name" : "InferAvroSchema",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ {
+        "x" : 1390.1079134751317,
+        "y" : 446.38689689351554
+      }, {
+        "x" : 1390.1079134751317,
+        "y" : 496.38689689351554
+      } ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "b3ca6cc6-0165-1000-ffff-ffffd1a8ed7a",
+        "id" : "c70f7a8d-ec01-3256-a4f9-49b10214632b",
+        "name" : "PutHDFS",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "63272910-59e7-3eb6-bb55-e2868057b29f",
+      "identifier" : "d663081f-f411-3161-a3c7-e06963f6151d",
+      "labelIndex" : 1,
+      "name" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "failure" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "b3ca6cc6-0165-1000-ffff-ffffd1a8ed7a",
+        "id" : "c70f7a8d-ec01-3256-a4f9-49b10214632b",
+        "name" : "PutHDFS",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "b3ca6cc6-0165-1000-ffff-ffffd1a8ed7a",
+        "id" : "c70f7a8d-ec01-3256-a4f9-49b10214632b",
+        "name" : "PutHDFS",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "63272910-59e7-3eb6-bb55-e2868057b29f",
+      "identifier" : "680dbdce-6506-3074-9e5b-632f90a33abc",
+      "labelIndex" : 1,
+      "name" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "b3ca6cc6-0165-1000-ffff-ffffd1a8ed7a",
+        "id" : "4c040c9d-0029-3764-977b-1f03544add5d",
+        "name" : "InferAvroSchema",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    } ],
+    "controllerServices" : [ ],
+    "funnels" : [ ],
+    "identifier" : "63272910-59e7-3eb6-bb55-e2868057b29f",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "name" : "infer_schema_from_tsv",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 440.6583836563433,
+      "y" : 519.1329686629247
+    },
+    "processGroups" : [ ],
+    "processors" : [ {
+      "autoTerminatedRelationships" : [ "original", "unsupported content" ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-kite-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.7.0.3.2.0.0-520"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "63272910-59e7-3eb6-bb55-e2868057b29f",
+      "identifier" : "4c040c9d-0029-3764-977b-1f03544add5d",
+      "name" : "InferAvroSchema",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 944.7150183617523,
+        "y" : 132.72719077184433
+      },
+      "properties" : {
+        "Schema Output Destination" : "flowfile-content",
+        "Get CSV Header Definition From Data" : "false",
+        "Avro Record Name" : "tmpAvroSchema",
+        "Charset" : "UTF-8",
+        "CSV Header Line Skip Count" : "0",
+        "CSV delimiter" : "\t",
+        "CSV Escape String" : "\\",
+        "CSV Header Definition" : "__time\tuid\tid_orig_h\tid_orig_p\tid_resp_h\tid_resp_p\ttrans_depth\tmethod\thost\turi\treferrer\tuser_agent\trequest_body_len\tresponse_body_len\tstatus_code\tstatus_msg\tinfo_code\tinfo_msg\tfilename\ttags\tusername\tpassword\tproxied\torig_fuids\torig_mime_types\tresp_fuids\tresp_mime_types",
+        "Input Content Type" : "csv",
+        "Pretty Avro Output" : "true",
+        "CSV Quote String" : "'",
+        "Number Of Records To Analyze" : "5000"
+      },
+      "propertyDescriptors" : {
+        "Schema Output Destination" : {
+          "displayName" : "Schema Output Destination",
+          "identifiesControllerService" : false,
+          "name" : "Schema Output Destination",
+          "sensitive" : false
+        },
+        "Get CSV Header Definition From Data" : {
+          "displayName" : "Get CSV Header Definition From Data",
+          "identifiesControllerService" : false,
+          "name" : "Get CSV Header Definition From Data",
+          "sensitive" : false
+        },
+        "Avro Record Name" : {
+          "displayName" : "Avro Record Name",
+          "identifiesControllerService" : false,
+          "name" : "Avro Record Name",
+          "sensitive" : false
+        },
+        "Charset" : {
+          "displayName" : "Charset",
+          "identifiesControllerService" : false,
+          "name" : "Charset",
+          "sensitive" : false
+        },
+        "CSV Header Line Skip Count" : {
+          "displayName" : "CSV Header Line Skip Count",
+          "identifiesControllerService" : false,
+          "name" : "CSV Header Line Skip Count",
+          "sensitive" : false
+        },
+        "CSV delimiter" : {
+          "displayName" : "CSV delimiter",
+          "identifiesControllerService" : false,
+          "name" : "CSV delimiter",
+          "sensitive" : false
+        },
+        "CSV Escape String" : {
+          "displayName" : "CSV Escape String",
+          "identifiesControllerService" : false,
+          "name" : "CSV Escape String",
+          "sensitive" : false
+        },
+        "CSV Header Definition" : {
+          "displayName" : "CSV Header Definition",
+          "identifiesControllerService" : false,
+          "name" : "CSV Header Definition",
+          "sensitive" : false
+        },
+        "Input Content Type" : {
+          "displayName" : "Input Content Type",
+          "identifiesControllerService" : false,
+          "name" : "Input Content Type",
+          "sensitive" : false
+        },
+        "Pretty Avro Output" : {
+          "displayName" : "Pretty Avro Output",
+          "identifiesControllerService" : false,
+          "name" : "Pretty Avro Output",
+          "sensitive" : false
+        },
+        "CSV Quote String" : {
+          "displayName" : "CSV Quote String",
+          "identifiesControllerService" : false,
+          "name" : "CSV Quote String",
+          "sensitive" : false
+        },
+        "Number Of Records To Analyze" : {
+          "displayName" : "Number Of Records To Analyze",
+          "identifiesControllerService" : false,
+          "name" : "Number Of Records To Analyze",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.kite.InferAvroSchema",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ "success" ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-hadoop-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.7.0.3.2.0.0-520"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "63272910-59e7-3eb6-bb55-e2868057b29f",
+      "identifier" : "c70f7a8d-ec01-3256-a4f9-49b10214632b",
+      "name" : "PutHDFS",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 935.1079134751318,
+        "y" : 406.38689689351554
+      },
+      "properties" : {
+        "Permissions umask" : "000",
+        "Hadoop Configuration Resources" : "/etc/hadoop/conf/core-site.xml,/etc/hadoop/conf/hdfs-site.xml",
+        "Compression codec" : "NONE",
+        "Kerberos Relogin Period" : "4 hours",
+        "Directory" : "/user/admin",
+        "Conflict Resolution Strategy" : "fail"
+      },
+      "propertyDescriptors" : {
+        "Permissions umask" : {
+          "displayName" : "Permissions umask",
+          "identifiesControllerService" : false,
+          "name" : "Permissions umask",
+          "sensitive" : false
+        },
+        "Hadoop Configuration Resources" : {
+          "displayName" : "Hadoop Configuration Resources",
+          "identifiesControllerService" : false,
+          "name" : "Hadoop Configuration Resources",
+          "sensitive" : false
+        },
+        "Remote Owner" : {
+          "displayName" : "Remote Owner",
+          "identifiesControllerService" : false,
+          "name" : "Remote Owner",
+          "sensitive" : false
+        },
+        "Additional Classpath Resources" : {
+          "displayName" : "Additional Classpath Resources",
+          "identifiesControllerService" : false,
+          "name" : "Additional Classpath Resources",
+          "sensitive" : false
+        },
+        "Compression codec" : {
+          "displayName" : "Compression codec",
+          "identifiesControllerService" : false,
+          "name" : "Compression codec",
+          "sensitive" : false
+        },
+        "IO Buffer Size" : {
+          "displayName" : "IO Buffer Size",
+          "identifiesControllerService" : false,
+          "name" : "IO Buffer Size",
+          "sensitive" : false
+        },
+        "Remote Group" : {
+          "displayName" : "Remote Group",
+          "identifiesControllerService" : false,
+          "name" : "Remote Group",
+          "sensitive" : false
+        },
+        "Block Size" : {
+          "displayName" : "Block Size",
+          "identifiesControllerService" : false,
+          "name" : "Block Size",
+          "sensitive" : false
+        },
+        "kerberos-credentials-service" : {
+          "displayName" : "Kerberos Credentials Service",
+          "identifiesControllerService" : true,
+          "name" : "kerberos-credentials-service",
+          "sensitive" : false
+        },
+        "Kerberos Keytab" : {
+          "displayName" : "Kerberos Keytab",
+          "identifiesControllerService" : false,
+          "name" : "Kerberos Keytab",
+          "sensitive" : false
+        },
+        "Kerberos Principal" : {
+          "displayName" : "Kerberos Principal",
+          "identifiesControllerService" : false,
+          "name" : "Kerberos Principal",
+          "sensitive" : false
+        },
+        "Replication" : {
+          "displayName" : "Replication",
+          "identifiesControllerService" : false,
+          "name" : "Replication",
+          "sensitive" : false
+        },
+        "Kerberos Relogin Period" : {
+          "displayName" : "Kerberos Relogin Period",
+          "identifiesControllerService" : false,
+          "name" : "Kerberos Relogin Period",
+          "sensitive" : false
+        },
+        "Directory" : {
+          "displayName" : "Directory",
+          "identifiesControllerService" : false,
+          "name" : "Directory",
+          "sensitive" : false
+        },
+        "Conflict Resolution Strategy" : {
+          "displayName" : "Conflict Resolution Strategy",
+          "identifiesControllerService" : false,
+          "name" : "Conflict Resolution Strategy",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.hadoop.PutHDFS",
+      "yieldDuration" : "1 sec"
+    } ],
+    "remoteProcessGroups" : [ ],
+    "variables" : { }
+  }
+}
