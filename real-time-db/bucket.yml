@@ -1,4 +1,5 @@
 flows:
+  a2e6f63d-7ab6-4c9c-b735-451e0ee6d28b: {ver: 1, file: publish_ftp_kafka.snapshot}
   f87c834b-2df2-4f8b-8495-962e4d1b7500: {ver: 1, file: get-crypto-currency-stream.snapshot}
   84e37b55-4acb-4dbb-9ace-45a1892ec964: {ver: 1, file: real-time-database-ingest.snapshot}
 layoutVer: 1
